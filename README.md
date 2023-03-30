@@ -34,3 +34,9 @@ $ docker exec vulnerable-app ls /tmp
 ...
 pwned
 ...
+
+
+
+
+# 构建镜像
+docker build -t artifactory/docker-local/demo-nginx:0.0.3 .  --no-cache
